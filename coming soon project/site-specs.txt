@@ -1,0 +1,40 @@
+/* 
+
+- SPACING SYSTEM (px)
+2 / 4/ 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 /96 / 128
+
+- FONT SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS
+Default: 
+Medium: 
+Semi-Bold:
+Bold: 
+
+- LINE HEIGHTS
+ Default: 
+ Small 
+ Medium 
+ Paragraph default 
+
+ - LETTER SPACING
+ -0.5px (minus)
+ 0.75px
+
+- MAIN COLOR
+- TINTS 
+- SHADES 
+- ACCENTS
+- GREY COLOR 
+
+
+
+- SHADOWS
+
+- BORDER RADIUS
+Default: 
+
+- WHITESPACE
+
+*/

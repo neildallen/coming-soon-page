@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body,
+html {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: AdiHaus;
+}
+
+body {
+    display: flex;
+    background: url('img/swirly-background.png');
+    background-size: cover;
+}
+
+.all-container {
+    max-width: 450px;
+    height: 800px;
+    margin: 5rem auto;
+    /* background-color: #fff; */
+}
+
+#logo {
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+}
+
+#athlete-mobile {
+    background: url("img/trainers.png") center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.all-content-container {
+    padding: 20px 30px;
+}
+
+.text-content-container {
+    width: 100%;
+    text-align: center;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 28px;
+    margin: 20px 0 40px;
+    color: #333333;
+}
+
+h2:nth-of-type(1) {
+    color: #2F80ED;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2:nth-of-type(2) {
+    color: #423A3A
+}
+
+form {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 0 20px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #7C7C7C 0%, #2B2828 100%, #fff 100%);
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.desktop-image {
+    display: none;
+}
+
+#arrow {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+/* ********* DESKTOP *************** */
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url('img/swirly-background.png');
+        background-size: cover;
+
+    }
+
+    .all-container {
+        width: 60%;
+    }
+
+    #athlete-mobile {
+        display: none;
+    }
+
+    .desktop-image {
+        display: block;
+        width: 40%;
+        background: url("img/trainers.png");
+        background-size: cover;
+    }
+
+    #logo {
+        margin: 30px 30px 100px 0;
+        height: 50px;
+
+        display: block;
+
+    }
+
+    .all-content-container {
+        padding: 0;
+        width: 500px;
+    }
+
+    .text-content-container {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 64px;
+        text-transform: uppercase;
+        width: 300px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 48px;
+        margin: 20px 0 40px;
+        color: #333333;
+    }
+
+    h2:nth-of-type(1) {
+        color: #2F80ED;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        width: 20%;
+        height: 50px;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #7C7C7C 0%, #2B2828 100%, #fff 100%);
+        font-size: 16px;
+        color: white;
+        border: none;
+    }
+
+    #arrow {
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+}
